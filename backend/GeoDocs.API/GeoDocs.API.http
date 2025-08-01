@@ -1,0 +1,6 @@
+@GeoDocs.API_HostAddress = http://localhost:5227
+
+GET {{GeoDocs.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
