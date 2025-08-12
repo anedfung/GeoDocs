@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useMemo } from "react";
 
 const MapChart = dynamic(() => import("./components/MapChart"), {
   ssr: false, // Important! Disable server-side rendering for this client-only map

@@ -3,11 +3,15 @@ import { MapContainer, Marker, Popup, TileLayer, Tooltip } from "react-leaflet"
 import "leaflet/dist/leaflet.css"
 import "leaflet-defaulticon-compatibility"
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
-// import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
-// import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+import { LatLngExpression } from "leaflet";
 
-export default function MapChart(props: any) {
-  const { position, zoom } = props
+type MapChartProps = {
+  position: LatLngExpression,
+  zoom: number
+};
+
+export default function MapChart( props: MapChartProps ) {
+  const { position, zoom } = props;
 
   return (
     <MapContainer center={position} zoom={zoom} scrollWheelZoom={false}>
