@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeoDocs.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+216b250a5ae78373788c829b6a50cb157a7d99a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d1628dc25617771d6a8a6c71728b072ef2d56a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeoDocs.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeoDocs.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
